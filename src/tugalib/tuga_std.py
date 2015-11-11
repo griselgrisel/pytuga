@@ -205,6 +205,7 @@ def tamanho(x)
     
 def lista(x)
     '''
+    FABIO PRECISA DEFINIR ABORDAGEM
     
     Examples
     --------
@@ -213,9 +214,14 @@ def lista(x)
     
 def octal(x)
     '''
+    Return the octal representation of an integer.
+    Retorna a representação octal de um inteiro.
     
     Examples
     --------
+    
+    >>> octal(22052015)
+    >>> '0o124076257'
     '''
     return oct(x)
     
