@@ -115,9 +115,9 @@ def enumerar(x)
     Examples
     --------
     
-    >>> musica = ['uni', 'duni', 'tê']
+    >>> musica = ['uni', 'duni', 'te']
     >>> listar(enumerar(musica))
-    >>> [(0, 'uni'), (1, 'duni'), (2, 'tê')]    
+    >>> [(0, 'uni'), (1, 'duni'), (2, 'te')]    
     '''
     return enumerate(x)
     
@@ -229,9 +229,15 @@ def octal(x)
 
 def invertido(x)
     '''
+    Return a reverse iterator.
+    Retorna um iterador reverso.
     
     Examples
     --------
+    
+    >>> musica = ['uni', 'duni', 'te']
+    >>> list(reversed(musica))
+    >>> ['te', 'duni', 'uni'] 
     '''
     return reversed(x)
     
