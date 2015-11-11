@@ -175,9 +175,18 @@ def hexadecimal(x)
     
 def inteiro(x)
     '''
-    
+    Convert a number or string to an integer, or return 0 if no arguments are given.
+    Converte um número ou texto num inteiro, [ou retorna 0 se nenhum argumento é fornecido].
+ 
     Examples
     --------
+    
+    >>> int(4.3)
+    >>> 4
+    >>> int(44.6E-1)
+    >>> 4
+    >>> int()
+    >>> 0  
     '''
     return int(x)
     
