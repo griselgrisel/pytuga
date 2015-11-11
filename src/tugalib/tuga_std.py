@@ -98,6 +98,7 @@ def caractere(x):
 
 def dicionário(x)
     '''
+    Fabio vai pensar como será a abordagem.
     
     Examples
     --------
@@ -108,20 +109,32 @@ def enumerar(x)
     '''
     Return an enumerate object.
     Retorna um objeto enumerado.
+    FABIO: Estava difícil fazer um exemplinho legal só com o enumerar.
+    Por isso coloquei menção á função listar que não existe no tuga_std.py
     
     Examples
     --------
-    >>> musica = ['uni', 'duni', 'te']
-    >>> list(enumerate(musica))
-    >>> [(0, 'uni'), (1, 'duni'), (2, 'te')]    
+    >>> musica = ['uni', 'duni', 'tê']
+    >>> listar(enumerar(musica))
+    >>> [(0, 'uni'), (1, 'duni'), (2, 'tê')]    
     '''
     return enumerate(x)
     
 def real(x)
     '''
+    Convert a string or number to a floating point number, if possible.
+    Converte um texto ou número a um número de ponto flutuante, se possível.
     
     Examples
     --------
+    >>> real(5)
+    >>> 5.0
+    >>> real(673.23)
+    >>> 673.23000000000002
+    >>> valor = "673.23"
+    >>> real(valor)
+    >>> 673.23000000000002
+    
     '''
     return float(x)
     
