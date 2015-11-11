@@ -192,9 +192,14 @@ def inteiro(x)
     
 def tamanho(x)
     '''
+    Return the number of items of a sequence or collection.
+    Retorna o número de itens de uma sequência ou coleção.
     
     Examples
     --------
+    >>> texto="programando em python"
+    >>> len(texto)
+    >>> 21
     '''
     return len(x)
     
