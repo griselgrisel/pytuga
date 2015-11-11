@@ -80,25 +80,151 @@ def booleano(x):
     return bool(x)
     
 # bytes = bytes
-def caractere(x) = chr
+def caractere(x):
+    '''
+    Return a Unicode string of one character with ordinal i; 0 <= i <= 0x10ffff.
+    Retorna um texto Unicode [(padrão de representãção de qualquer caractere de um sistema de escrita)] de um caractere.
+    
+    Examples
+    --------
+    >>> caractere(227)
+    >>> 'ã'   
+    >>> caractere(231)
+    >>> 'ç'   
+    >>> caractere(224)
+    >>> 'à'
+    '''
+    return chr(x)
 
-dicionário = dict
-enumerar = enumerate
-real = float
-formatar = format
-ajuda = help
-hexadecimal = hex
-inteiro = int
-tamanho = len
-lista = list
-octal = oct
+def dicionário(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return dict(x)
+    
+def enumerar(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return enumerate(x)
+    
+def real(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return float(x)
+    
+def formatar    '''
+    
+    Examples
+    --------
+    '''
+    return format(x)
+    
+def ajuda(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return help(x)
+    
+def hexadecimal(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return hex(x)
+    
+def inteiro(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return int(x)
+    
+def tamanho(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return len(x)
+    
+def lista(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return list(x)
+    
+def octal(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return oct(x)
+    
 #ord = ord
-invertido = reversed
-conjunto = set
-ordenado = sorted
-texto = str
-tupla = tuple
-tipo = type
+
+def invertido(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return reversed(x)
+    
+def conjunto(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return set(x)
+    
+def ordenado(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return sorted(x)
+    
+def texto(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return str(x)
+    
+def tupla(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return tuple(x)
+    
+def tipo(x)
+    '''
+    
+    Examples
+    --------
+    '''
+    return type(x)
+    
 verdadeiro = Verdadeiro = True
 falso = Falso = False
 
