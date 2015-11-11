@@ -106,9 +106,14 @@ def dicionário(x)
     
 def enumerar(x)
     '''
+    Return an enumerate object.
+    Retorna um objeto enumerado.
     
     Examples
     --------
+    >>> musica = ['uni', 'duni', 'te']
+    >>> list(enumerate(musica))
+    >>> [(0, 'uni'), (1, 'duni'), (2, 'te')]    
     '''
     return enumerate(x)
     
