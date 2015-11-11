@@ -114,6 +114,7 @@ def enumerar(x)
     
     Examples
     --------
+    
     >>> musica = ['uni', 'duni', 'tê']
     >>> listar(enumerar(musica))
     >>> [(0, 'uni'), (1, 'duni'), (2, 'tê')]    
@@ -127,6 +128,7 @@ def real(x)
     
     Examples
     --------
+    
     >>> real(5)
     >>> 5.0
     >>> real(673.23)
@@ -139,25 +141,35 @@ def real(x)
     return float(x)
     
 def formatar    '''
-    
+    GRISELDA: ver melhor
     Examples
     --------
+    
     '''
     return format(x)
     
 def ajuda(x)
     '''
-    
+    Fornece ajuda sobre módulos, palavras chaves ou tôpicos do Python.
+
     Examples
     --------
+    
+    >>> ajuda(binário)
+    Retorna a representação binária de um [inteiro/número inteiro]. 
     '''
     return help(x)
     
 def hexadecimal(x)
     '''
+    Return the hexadecimal representation of an integer.
+    Retorna a representação hexadecimal de um inteiro.
     
     Examples
     --------
+    
+    >>> hex(6745)
+    >>> '0x1a59'
     '''
     return hex(x)
     
