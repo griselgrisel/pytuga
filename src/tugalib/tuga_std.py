@@ -54,15 +54,34 @@ def sair(código_erro):
 def binário(x):
     '''
     Return the binary representation of an integer.
+    Retorna a representação binária de um [inteiro/número inteiro].
     
-       >>> bin(2796202)
-       '0b1010101010101010101010'
+    Examples
+    --------
+    
+    >>> bin(2796202)
+    '0b1010101010101010101010'
     '''
     return bin(x)
     
-booleano = bool
+def booleano(x):
+    '''
+    Retorna verdadeiro quando o argumento x é verdadeiro, falso em caso contrário.
+    Os booleanos podem ser usados como inteiros, sendo que falso equivale a 0 e verdadeiro equivale a 1.
+    
+    Examples
+    --------
+    
+    >>> booleano(0)
+    falso
+    >>> booleano(1)
+    verdadeiro
+    '''
+    return bool(x)
+    
 # bytes = bytes
-caractere = chr
+def caractere(x) = chr
+
 dicionário = dict
 enumerar = enumerate
 real = float
